@@ -31,8 +31,8 @@ var intervalId = setInterval(    //每秒执行30次
  
  
  
-//失去焦点
-	window.onblur = function(){
+	//失去焦点
+	    window.onblur = function(){
   		 clearInterval(intervalId);
 		}
 
